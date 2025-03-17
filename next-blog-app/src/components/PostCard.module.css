@@ -1,0 +1,58 @@
+.postCard {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.postCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.postCard h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.postCard p {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.viewBtn, .commentsBtn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.viewBtn {
+  background-color: #3498db;
+  color: white;
+}
+
+.viewBtn:hover {
+  background-color: #2980b9;
+}
+
+.commentsBtn {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.commentsBtn:hover {
+  background-color: #e0e0e0;
+} 
